@@ -1,0 +1,331 @@
+Enter amount of processes to generate: 
+10
+Process 1 created with [Arrival Time: 23.648357 | Expected Run Time: 3.6348298 | Priority: 4]
+Process 2 created with [Arrival Time: 2.5990572 | Expected Run Time: 7.478679 | Priority: 4]
+Process 3 created with [Arrival Time: 73.9794 | Expected Run Time: 7.908989 | Priority: 1]
+Process 4 created with [Arrival Time: 0.44458848 | Expected Run Time: 0.9783442 | Priority: 2]
+Process 5 created with [Arrival Time: 14.584654 | Expected Run Time: 0.28675285 | Priority: 3]
+Process 6 created with [Arrival Time: 77.153404 | Expected Run Time: 2.3743825 | Priority: 3]
+Process 7 created with [Arrival Time: 50.43603 | Expected Run Time: 3.1697116 | Priority: 2]
+Process 8 created with [Arrival Time: 40.11962 | Expected Run Time: 8.820599 | Priority: 1]
+Process 9 created with [Arrival Time: 43.057365 | Expected Run Time: 7.5581355 | Priority: 3]
+Process 10 created with [Arrival Time: 59.013584 | Expected Run Time: 6.892375 | Priority: 4]
+[0.0---4---0.9783442]
+
+[0.9783442---2---8.457024]
+
+[8.457024---5---8.743776]
+
+[8.743776---1---12.378606]
+
+[12.378606---8---21.199203]
+
+[21.199203---9---28.75734]
+
+[28.75734---7---31.927052]
+
+[31.927052---10---38.819427]
+
+[38.819427---3---46.728416]
+
+[46.728416---6---49.1028]
+
+Average turn around time: 25.153788
+Average waiting time: 20.243505
+Average response time: 20.243505
+Throughput: 0.039755445
+Output for SJF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: 5 ||Q16: 4 ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: wait ||Q78: 6 ||Q79: 6 |
+|Q80: 6 ||Q81: 7 ||Q82: 7 ||Q83: 7 ||Q84: 7 ||Q85: 1 ||Q86: 1 ||Q87: 1 ||Q88: 1 ||Q89: 10 |
+|Q90: 10 ||Q91: 10 ||Q92: 10 ||Q93: 10 ||Q94: 10 ||Q95: 10 ||Q96: 2 ||Q97: 2 ||Q98: 2 ||Q99: 2 |
+Average Turnaround Time: 32.23203
+Average Waiting Time: 29.34263
+Average Response Time: 23.119896
+Throughput: 0.03102504
+
+Output for RR:
+|Q0: wait ||Q1: 4 ||Q2: wait ||Q3: 2 ||Q4: 2 ||Q5: 2 ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: 5 ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: 1 ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: 8 ||Q42: 8 ||Q43: 8 ||Q44: 8 ||Q45: 9 ||Q46: 8 ||Q47: 9 ||Q48: 8 ||Q49: 9 |
+|Q50: 8 ||Q51: 9 ||Q52: 8 ||Q53: 7 ||Q54: 9 ||Q55: 8 ||Q56: 9 ||Q57: 9 ||Q58: 9 ||Q59: wait |
+|Q60: 10 ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: 3 ||Q75: 3 ||Q76: 3 ||Q77: 3 ||Q78: 3 ||Q79: 6 |
+|Q80: 3 ||Q81: 3 ||Q82: 3 |
+Average Turnaround Time: 5.6963935
+Average Waiting Time: 0.7861136
+Average Response Time: 23.496393
+Throughput: 0.17554967
+Output for HPF:
+|Q48.94022: 8 ||Q56.84921: 3 ||Q57.827553: 4 ||Q60.997265: 7 ||Q61.28402: 5 ||Q68.842155: 9 ||Q71.21654: 6 ||Q78.69521: 2 ||Q82.33004: 1 ||Q89.22241: 10 ||Q98.043015: 8 |
+Average turn around time: 79.89753
+Average waiting time: 73.935135
+Average response time: 73.935135
+Throughput: 0.012516031
+Output for PHPF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: 8 ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: 3 ||Q75: 4 ||Q76: 7 ||Q77: 5 ||Q78: 9 ||Q79: 6 |
+|Q80: 2 ||Q81: 1 ||Q82: 10 |
+Average Turnaround Time: 36.796394
+Average Waiting Time: 31.886114
+Average Response Time: 23.496395
+Throughput: 0.027176578
+Process 1 created with [Arrival Time: 86.22093 | Expected Run Time: 5.614608 | Priority: 4]
+Process 2 created with [Arrival Time: 31.984661 | Expected Run Time: 5.6541395 | Priority: 4]
+Process 3 created with [Arrival Time: 21.364931 | Expected Run Time: 9.221676 | Priority: 3]
+Process 4 created with [Arrival Time: 18.277288 | Expected Run Time: 1.2796905 | Priority: 4]
+Process 5 created with [Arrival Time: 49.640156 | Expected Run Time: 1.3809203 | Priority: 4]
+Process 6 created with [Arrival Time: 51.447403 | Expected Run Time: 0.5666159 | Priority: 1]
+Process 7 created with [Arrival Time: 50.234097 | Expected Run Time: 8.703947 | Priority: 2]
+Process 8 created with [Arrival Time: 74.93973 | Expected Run Time: 7.8883557 | Priority: 4]
+Process 9 created with [Arrival Time: 9.375245 | Expected Run Time: 9.396901 | Priority: 4]
+Process 10 created with [Arrival Time: 98.681816 | Expected Run Time: 8.517664 | Priority: 2]
+[0.0---9---9.396901]
+
+[9.396901---4---10.676592]
+
+[10.676592---3---19.898268]
+
+[19.898268---2---25.552406]
+
+[25.552406---5---26.933327]
+
+[26.933327---7---35.637276]
+
+[35.637276---6---36.20389]
+
+[36.20389---8---44.092247]
+
+[44.092247---1---49.706856]
+
+[49.706856---10---58.224518]
+
+Average turn around time: 41.00747
+Average waiting time: 35.18502
+Average response time: 35.18502
+Throughput: 0.0243858
+Output for SJF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: 6 ||Q53: 4 ||Q54: 4 ||Q55: 5 ||Q56: 5 ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: wait ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: wait ||Q87: 1 ||Q88: 1 ||Q89: 1 |
+|Q90: 1 ||Q91: 1 ||Q92: 1 ||Q93: 2 ||Q94: 2 ||Q95: 2 ||Q96: 2 ||Q97: 2 ||Q98: 2 ||Q99: 8 |
+Average Turnaround Time: 29.684301
+Average Waiting Time: 26.785107
+Average Response Time: 20.485912
+Throughput: 0.03368784
+
+Output for RR:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait |
+|Q10: 9 ||Q11: 9 ||Q12: 9 ||Q13: 9 ||Q14: 9 ||Q15: 9 ||Q16: 9 ||Q17: 9 ||Q18: 9 ||Q19: 9 |
+|Q20: 4 ||Q21: wait ||Q22: 3 ||Q23: 3 ||Q24: 3 ||Q25: 3 ||Q26: 3 ||Q27: 3 ||Q28: 3 ||Q29: 3 |
+|Q30: 3 ||Q31: 3 ||Q32: 2 ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait |
+|Q50: 5 ||Q51: 7 ||Q52: 7 ||Q53: 6 ||Q54: 7 ||Q55: 7 ||Q56: 7 ||Q57: 7 ||Q58: 7 ||Q59: 7 |
+|Q60: 7 ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: 8 ||Q76: 8 ||Q77: 8 ||Q78: 8 ||Q79: 8 |
+|Q80: 8 ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: wait ||Q87: 1 ||Q88: wait ||Q89: wait ||Q90: wait ||Q91: wait ||Q92: wait ||Q93: wait ||Q94: wait ||Q95: wait ||Q96: wait ||Q97: wait ||Q98: wait ||Q99: 10 |
+Average Turnaround Time: 5.2795067
+Average Waiting Time: -0.24347751
+Average Response Time: 14.279507
+Throughput: 0.18941164
+Output for HPF:
+|Q52.01402: 6 ||Q60.717964: 7 ||Q69.23563: 10 ||Q78.457306: 3 ||Q87.85421: 9 ||Q89.1339: 4 ||Q94.78804: 2 ||Q96.16896: 5 |
+Average turn around time: 87.33325
+Average waiting time: 82.807434
+Average response time: 82.807434
+Throughput: 0.011450392
+Output for PHPF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: 6 ||Q53: 7 ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: wait ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: wait ||Q87: wait ||Q88: wait ||Q89: wait ||Q90: wait ||Q91: wait ||Q92: wait ||Q93: wait ||Q94: wait ||Q95: wait ||Q96: wait ||Q97: wait ||Q98: wait ||Q99: 10 |
+Average Turnaround Time: 2.6592503
+Average Waiting Time: -1.9760303
+Average Response Time: 0.65925026
+Throughput: 0.37604585
+Process 1 created with [Arrival Time: 86.57975 | Expected Run Time: 7.5904474 | Priority: 4]
+Process 2 created with [Arrival Time: 46.753468 | Expected Run Time: 3.455062 | Priority: 4]
+Process 3 created with [Arrival Time: 76.21012 | Expected Run Time: 0.8975432 | Priority: 2]
+Process 4 created with [Arrival Time: 21.769205 | Expected Run Time: 7.922674 | Priority: 1]
+Process 5 created with [Arrival Time: 72.180374 | Expected Run Time: 4.5946393 | Priority: 2]
+Process 6 created with [Arrival Time: 9.654072 | Expected Run Time: 6.476638 | Priority: 2]
+Process 7 created with [Arrival Time: 85.328476 | Expected Run Time: 8.032501 | Priority: 2]
+Process 8 created with [Arrival Time: 60.76599 | Expected Run Time: 3.2204325 | Priority: 1]
+Process 9 created with [Arrival Time: 45.12709 | Expected Run Time: 4.8252625 | Priority: 2]
+Process 10 created with [Arrival Time: 49.397537 | Expected Run Time: 9.800954 | Priority: 1]
+[0.0---6---6.476638]
+
+[6.476638---4---14.399312]
+
+[14.399312---9---19.224575]
+
+[19.224575---2---22.679638]
+
+[22.679638---10---32.48059]
+
+[32.48059---8---35.701023]
+
+[35.701023---5---40.295662]
+
+[40.295662---3---41.193207]
+
+[41.193207---7---49.225708]
+
+[49.225708---1---56.816154]
+
+Average turn around time: 41.503326
+Average waiting time: 35.82171
+Average response time: 35.82171
+Throughput: 0.024094455
+Output for SJF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: 3 ||Q78: 8 ||Q79: 8 |
+|Q80: 8 ||Q81: 8 ||Q82: 2 ||Q83: 2 ||Q84: 2 ||Q85: 2 ||Q86: 5 ||Q87: 5 ||Q88: 5 ||Q89: 5 |
+|Q90: 5 ||Q91: 9 ||Q92: 9 ||Q93: 9 ||Q94: 9 ||Q95: 9 ||Q96: 6 ||Q97: 6 ||Q98: 6 ||Q99: 6 |
+Average Turnaround Time: 33.189766
+Average Waiting Time: 29.79118
+Average Response Time: 22.59259
+Throughput: 0.030129768
+
+Output for RR:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait |
+|Q10: 6 ||Q11: 6 ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: 4 ||Q23: 4 ||Q24: 4 ||Q25: 4 ||Q26: 4 ||Q27: 4 ||Q28: 4 ||Q29: 4 ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: 9 ||Q47: 2 ||Q48: wait ||Q49: wait |
+|Q50: 10 ||Q51: 10 ||Q52: 10 ||Q53: 10 ||Q54: 10 ||Q55: 10 ||Q56: 10 ||Q57: 10 ||Q58: 10 ||Q59: 10 ||Q60: wait ||Q61: 8 ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: 5 ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: 3 ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: 7 ||Q87: 7 ||Q88: 1 ||Q89: 7 |
+|Q90: 1 ||Q91: 7 ||Q92: 1 ||Q93: 7 ||Q94: 1 ||Q95: 7 ||Q96: 1 ||Q97: 7 ||Q98: 1 ||Q99: 7 |
+Average Turnaround Time: 3.6427677
+Average Waiting Time: -1.5063839
+Average Response Time: 25.017769
+Throughput: 0.27451655
+Output for HPF:
+|Q29.69188: 4 ||Q39.492832: 10 ||Q42.713264: 8 ||Q49.189903: 6 ||Q54.015167: 9 ||Q58.609806: 5 ||Q59.50735: 3 ||Q67.539856: 7 ||Q70.99492: 2 ||Q78.585365: 1 ||Q86.50804: 4 ||Q96.309: 10 |
+Average turn around time: 70.367584
+Average waiting time: 64.12721
+Average response time: 64.12721
+Throughput: 0.014211088
+Output for PHPF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: 4 ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait |
+|Q50: 10 ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: 8 ||Q62: 6 ||Q63: 9 ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: 5 ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: 3 ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: 7 ||Q87: 2 ||Q88: 1 |
+Average Turnaround Time: 12.523391
+Average Waiting Time: 6.8417754
+Average Response Time: 20.223392
+Throughput: 0.07985058
+Process 1 created with [Arrival Time: 27.376236 | Expected Run Time: 8.661583 | Priority: 3]
+Process 2 created with [Arrival Time: 14.666818 | Expected Run Time: 0.27608588 | Priority: 3]
+Process 3 created with [Arrival Time: 12.853035 | Expected Run Time: 7.4387684 | Priority: 1]
+Process 4 created with [Arrival Time: 92.65998 | Expected Run Time: 8.285272 | Priority: 2]
+Process 5 created with [Arrival Time: 4.366489 | Expected Run Time: 3.037906 | Priority: 1]
+Process 6 created with [Arrival Time: 89.779976 | Expected Run Time: 6.738966 | Priority: 1]
+Process 7 created with [Arrival Time: 54.462196 | Expected Run Time: 1.9255809 | Priority: 3]
+Process 8 created with [Arrival Time: 69.56386 | Expected Run Time: 2.6599221 | Priority: 2]
+Process 9 created with [Arrival Time: 28.695385 | Expected Run Time: 9.236637 | Priority: 2]
+Process 10 created with [Arrival Time: 37.119747 | Expected Run Time: 9.355417 | Priority: 1]
+[0.0---5---3.037906]
+
+[3.037906---3---10.476674]
+
+[10.476674---2---10.75276]
+
+[10.75276---1---19.414343]
+
+[19.414343---9---28.65098]
+
+[28.65098---10---38.006397]
+
+[38.006397---7---39.931976]
+
+[39.931976---8---42.5919]
+
+[42.5919---6---49.330864]
+
+[49.330864---4---57.616135]
+
+Average turn around time: 34.34748
+Average waiting time: 28.58587
+Average response time: 28.58587
+Throughput: 0.029114215
+Output for SJF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: 2 ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: 7 ||Q56: 7 ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait |
+|Q70: 8 ||Q71: 8 ||Q72: 8 ||Q73: 5 ||Q74: 5 ||Q75: 5 ||Q76: 5 ||Q77: wait ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: wait ||Q87: wait ||Q88: wait ||Q89: wait |
+|Q90: 6 ||Q91: 6 ||Q92: 6 ||Q93: 6 ||Q94: 6 ||Q95: 6 ||Q96: 6 ||Q97: 3 ||Q98: 3 ||Q99: 3 |
+Average Turnaround Time: 23.287518
+Average Waiting Time: 20.359825
+Average Response Time: 14.032133
+Throughput: 0.042941462
+
+Output for RR:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: 5 ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: 3 ||Q14: 3 ||Q15: 3 ||Q16: 2 ||Q17: 3 ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: 1 ||Q29: 1 |
+|Q30: 9 ||Q31: 1 ||Q32: 9 ||Q33: 1 ||Q34: 9 ||Q35: 1 ||Q36: 9 ||Q37: 1 ||Q38: 9 ||Q39: 1 |
+|Q40: 10 ||Q41: 9 ||Q42: 1 ||Q43: 10 ||Q44: 9 ||Q45: 1 ||Q46: 10 ||Q47: 9 ||Q48: 10 ||Q49: 9 |
+|Q50: 10 ||Q51: 9 ||Q52: 10 ||Q53: 10 ||Q54: 10 ||Q55: 10 ||Q56: 7 ||Q57: 10 ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait |
+|Q70: 8 ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: wait ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: wait ||Q87: wait ||Q88: wait ||Q89: wait |
+|Q90: 6 ||Q91: wait ||Q92: wait ||Q93: 4 ||Q94: 4 ||Q95: 4 ||Q96: 4 ||Q97: 4 ||Q98: 4 ||Q99: 4 |
+Average Turnaround Time: 8.568474
+Average Waiting Time: 3.087266
+Average Response Time: 17.679583
+Throughput: 0.1167069
+Output for HPF:
+|Q7.404395: 5 ||Q14.8431635: 3 ||Q24.198582: 10 ||Q30.937548: 6 ||Q40.174187: 9 ||Q42.83411: 8 ||Q51.11938: 4 ||Q51.395466: 2 ||Q60.05705: 1 ||Q61.982628: 7 ||Q65.02053: 5 ||Q72.4593: 3 ||Q81.81471: 10 ||Q88.55368: 6 ||Q97.79031: 9 |
+Average turn around time: 61.169415
+Average waiting time: 55.493885
+Average response time: 55.493885
+Throughput: 0.01634804
+Output for PHPF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: 5 ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: 3 ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: wait ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: 10 ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: wait ||Q78: wait ||Q79: wait ||Q80: wait ||Q81: wait ||Q82: wait ||Q83: wait ||Q84: wait ||Q85: wait ||Q86: wait ||Q87: wait ||Q88: wait ||Q89: wait |
+|Q90: 6 ||Q91: 9 ||Q92: 8 ||Q93: 4 ||Q94: 2 ||Q95: 1 ||Q96: 7 |
+Average Turnaround Time: 28.545628
+Average Waiting Time: 22.784016
+Average Response Time: 15.94563
+Throughput: 0.035031635
+Process 1 created with [Arrival Time: 7.170123 | Expected Run Time: 5.6557097 | Priority: 1]
+Process 2 created with [Arrival Time: 25.779104 | Expected Run Time: 9.252597 | Priority: 1]
+Process 3 created with [Arrival Time: 9.105003 | Expected Run Time: 0.40435404 | Priority: 3]
+Process 4 created with [Arrival Time: 72.285065 | Expected Run Time: 4.250309 | Priority: 2]
+Process 5 created with [Arrival Time: 1.0292456 | Expected Run Time: 5.2965508 | Priority: 4]
+Process 6 created with [Arrival Time: 16.149757 | Expected Run Time: 2.7840617 | Priority: 3]
+Process 7 created with [Arrival Time: 24.787228 | Expected Run Time: 3.9804945 | Priority: 4]
+Process 8 created with [Arrival Time: 76.565796 | Expected Run Time: 6.022055 | Priority: 1]
+Process 9 created with [Arrival Time: 26.735203 | Expected Run Time: 9.621713 | Priority: 3]
+Process 10 created with [Arrival Time: 8.185053 | Expected Run Time: 8.176228 | Priority: 2]
+[0.0---5---5.2965508]
+
+[5.2965508---1---10.952261]
+
+[10.952261---10---19.128489]
+
+[19.128489---3---19.532843]
+
+[19.532843---6---22.316904]
+
+[22.316904---7---26.297398]
+
+[26.297398---2---35.549995]
+
+[35.549995---9---45.171707]
+
+[45.171707---4---49.422016]
+
+[49.422016---8---55.444073]
+
+Average turn around time: 29.94047
+Average waiting time: 24.396063
+Average response time: 24.396063
+Throughput: 0.03339961
+Output for SJF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: wait ||Q9: wait |
+|Q10: 3 ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: 6 ||Q18: 6 ||Q19: 6 ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: 7 ||Q26: 7 ||Q27: 7 ||Q28: 7 ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: 4 ||Q74: 4 ||Q75: 4 ||Q76: 4 ||Q77: 4 ||Q78: 5 ||Q79: 5 |
+|Q80: 5 ||Q81: 5 ||Q82: 5 ||Q83: 5 ||Q84: 1 ||Q85: 1 ||Q86: 1 ||Q87: 1 ||Q88: 1 ||Q89: 1 |
+|Q90: 8 ||Q91: 8 ||Q92: 8 ||Q93: 8 ||Q94: 8 ||Q95: 8 ||Q96: 8 ||Q97: 10 ||Q98: 10 ||Q99: 10 |
+Average Turnaround Time: 36.95641
+Average Waiting Time: 32.90019
+Average Response Time: 24.272541
+Throughput: 0.027058907
+
+Output for RR:
+|Q0: wait ||Q1: wait ||Q2: 5 ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: 1 ||Q9: 10 |
+|Q10: 10 ||Q11: 3 ||Q12: 10 ||Q13: 10 ||Q14: 10 ||Q15: wait ||Q16: wait ||Q17: 6 ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: 7 ||Q26: 2 ||Q27: 2 ||Q28: 9 ||Q29: 2 |
+|Q30: 9 ||Q31: 2 ||Q32: 9 ||Q33: 2 ||Q34: 9 ||Q35: 2 ||Q36: 9 ||Q37: 2 ||Q38: 9 ||Q39: 2 |
+|Q40: 9 ||Q41: 2 ||Q42: 9 ||Q43: 2 ||Q44: 9 ||Q45: 9 ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: 4 ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: 8 |
+Average Turnaround Time: 5.7208424
+Average Waiting Time: 0.17643547
+Average Response Time: 26.020844
+Throughput: 0.17479943
+Output for HPF:
+|Q12.825832: 1 ||Q22.07843: 2 ||Q28.100485: 8 ||Q36.27671: 10 ||Q40.52702: 4 ||Q40.931374: 3 ||Q43.715435: 6 ||Q53.337147: 9 ||Q58.633698: 5 ||Q62.614193: 7 ||Q68.269905: 1 ||Q77.5225: 2 ||Q83.544556: 8 ||Q91.72078: 10 ||Q95.971085: 4 ||Q96.375435: 3 |
+Average turn around time: 64.573166
+Average waiting time: 59.13628
+Average response time: 59.13628
+Throughput: 0.015486309
+Output for PHPF:
+|Q0: wait ||Q1: wait ||Q2: wait ||Q3: wait ||Q4: wait ||Q5: wait ||Q6: wait ||Q7: wait ||Q8: 1 ||Q9: wait ||Q10: wait ||Q11: wait ||Q12: wait ||Q13: wait ||Q14: wait ||Q15: wait ||Q16: wait ||Q17: wait ||Q18: wait ||Q19: wait ||Q20: wait ||Q21: wait ||Q22: wait ||Q23: wait ||Q24: wait ||Q25: wait ||Q26: 2 ||Q27: wait ||Q28: wait ||Q29: wait ||Q30: wait ||Q31: wait ||Q32: wait ||Q33: wait ||Q34: wait ||Q35: wait ||Q36: wait ||Q37: wait ||Q38: wait ||Q39: wait ||Q40: wait ||Q41: wait ||Q42: wait ||Q43: wait ||Q44: wait ||Q45: wait ||Q46: wait ||Q47: wait ||Q48: wait ||Q49: wait ||Q50: wait ||Q51: wait ||Q52: wait ||Q53: wait ||Q54: wait ||Q55: wait ||Q56: wait ||Q57: wait ||Q58: wait ||Q59: wait ||Q60: wait ||Q61: wait ||Q62: wait ||Q63: wait ||Q64: wait ||Q65: wait ||Q66: wait ||Q67: wait ||Q68: wait ||Q69: wait ||Q70: wait ||Q71: wait ||Q72: wait ||Q73: wait ||Q74: wait ||Q75: wait ||Q76: wait ||Q77: 8 ||Q78: 10 ||Q79: 4 |
+|Q80: 3 ||Q81: 6 ||Q82: 9 ||Q83: 5 ||Q84: 7 |
+Average Turnaround Time: 42.020844
+Average Waiting Time: 36.476433
+Average Response Time: 26.020844
+Throughput: 0.023797713
